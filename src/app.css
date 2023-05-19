@@ -1,0 +1,73 @@
+@font-face {
+	font-family: 'Filson Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(../src/lib/assets/fonts/filson-pro-regular.woff2) format('woff2');
+}
+@font-face {
+	font-family: 'Filson Pro';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(../src/lib/assets/fonts/filson-pro-bold.woff2) format('woff2');
+}
+@font-face {
+	font-family: 'Lust Display Italic';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(../src/lib/assets/fonts/lust-display-italic.woff2) format('woff2');
+}
+@font-face {
+	font-family: 'Cochocib Script Latin Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(../src/lib/assets/fonts/cochocib-script-latin-pro.woff2) format('woff2');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@media (max-width: 400px) {
+		html {
+			font-size: 4vw;
+		}
+	}
+	@media (min-width: 1281px) {
+		html {
+			font-size: 1.25vw;
+		}
+	}
+	@media (min-width: 1920px) {
+		html {
+			font-size: 24px;
+		}
+	}
+	html {
+		@apply scroll-smooth antialiased;
+	}
+	body {
+		@apply text-[#144074];
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+	}
+}
+
+@layer components {
+}
+
+@layer utilities {
+}
+
+.rebote {
+	transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
