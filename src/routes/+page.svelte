@@ -76,9 +76,13 @@
 					class:translate-y-24={!intersection03}
 				>
 					Para una gran escapada, necesitas el mejor aliado. Si esta primavera y verano, quieres sentirte un explorador
-					de altura, el nuevo <span class="text-[#DCFF00] underline">Opel Mokka Black Edition</span> es para ti. Este SUV
-					elegante y potente cuenta con un diseño moderno, alta tecnología en el interior y exterior y un motor de hasta
-					136CV para surcar nuestra geografía con estilo y comodidad. ¡Vamos a por ello!
+					de altura, el nuevo <a
+						href="https://store.opel.es/selector/configurable/mokka-suv/black-edition/1-2t-gasolina-130cv-cambio-manual-6-velocidades-gasolina/vulkan-grey/tela-focus-simil-cuero-negra?utm_publisher=eltiempo.es&dclid=CNfd9ePq-f4CFbQFBgAdhsIGJw"
+						target="_blank"
+						rel="sponsored"
+						class="text-[#DCFF00] underline">Opel Mokka Black Edition</a
+					> es para ti. Este SUV elegante y potente cuenta con un diseño moderno, alta tecnología en el interior y exterior
+					y un motor de hasta 136CV para surcar nuestra geografía con estilo y comodidad. ¡Vamos a por ello!
 				</h4>
 			</Intersection>
 		</div>
